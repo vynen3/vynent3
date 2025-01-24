@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble Vine Thrive Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7fff7;
+        }
+        header {
+            background: #005f73;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            max-width: 150px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #94d2bd;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #333;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #005f73;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem;
+        }
+        footer {
+            background: #005f73;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta {
+            background: #94d2bd;
+            padding: 1rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta a {
+            text-decoration: none;
+            color: #005f73;
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #94d2bd;
+            border-radius: 5px;
+        }
+        form button {
+            background: #005f73;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #0a9396;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Noble Vine Logo">
+        <h1>Welcome to Noble Vine Thrive Center</h1>
+        <p>Promoting Health and Well-Being for Individuals with Non-Communicable Diseases</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#impact">Impact</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home" class="container">
+        <h2>Who We Are</h2>
+        <p>Noble Vine Thrive Center is dedicated to improving the health and quality of life for individuals suffering from Non-Communicable Diseases (NCDs). Our mission is to empower communities with knowledge, resources, and support to lead healthier lives.</p>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Established to address the growing burden of NCDs, we aim to bridge gaps in healthcare access through education, personalized coaching, and community engagement. Our focus is on prevention, management, and sustainable health practices.</p>
+    </section>
+
+    <section id="programs" class="container">
+        <h2>Our Programs</h2>
+        <ul>
+            <li><strong>Health Education Campaigns:</strong> Raising awareness about NCDs and their prevention.</li>
+            <li><strong>Personalized Counseling:</strong> Providing one-on-one coaching for disease management.</li>
+            <li><strong>Fitness Programs:</strong> Encouraging physical activity through group and home-based exercises.</li>
+            <li><strong>Nutritional Support:</strong> Promoting healthy eating habits with counseling and workshops.</li>
+            <li><strong>Mental Health Workshops:</strong> Addressing stress and mental well-being for individuals and families.</li>
+        </ul>
+    </section>
+
+    <section id="impact" class="container">
+        <h2>Our Impact</h2>
+        <p>We are proud of the lives we have transformed through our work. Participants have reported better health outcomes, increased awareness, and a higher quality of life. Together, we are making a difference!</p>
+    </section>
+
+    <section id="get-involved" class="cta">
+        <h2>Get Involved</h2>
+        <p>Join us in making a lasting impact on the lives of individuals living with NCDs. Volunteer, donate, or partner with us to support our mission.</p>
+        <a href="#contact">Learn More</a>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> georgewcollins51@gmail.com</p>
+        <p><strong>Phone:</strong> +254728257432</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Noble Vine Thrive Center. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
